@@ -1,0 +1,1 @@
+print("\n".join(list(map(lambda w: w if len(w) <= 10 else f"{w[0]}{len(w)-2}{w[-1]}", [input() for _ in range(int(input()))]))))
